@@ -1,0 +1,25 @@
+/* see the invisible */
+* {
+    outline: 2px dotted gray;
+  }
+  
+  main {
+    background: lightgray;
+    
+  /* roughly 640 pixels   */
+    width: 40em;
+    
+  /* fixed center   */
+  /*   margin: 0 auto; */
+    margin-inline: auto;
+  }
+  
+  main img {
+  width: 100%;
+    display: block;
+  }
+
+  .profile-image {
+    width: 350px;  /* You can adjust this width as needed */
+    height: auto;  /* This will maintain the aspect ratio of the image */
+}
